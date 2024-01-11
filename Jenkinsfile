@@ -24,7 +24,6 @@ pipeline {
             }
         }
 
-
         stage('SonarQube analysis') {
             environment {
                 scannerHome = tool 'sonar-scanner-meportal'
