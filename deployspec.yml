@@ -17,7 +17,7 @@ spec:
       - name: jfrogcred
       containers:
       - name:  meportal-deploy
-        image: debiproject.jfrog.io/meportal-docker-local/myapp:1.0
+        image: debiproject.jfrog.io/meportal-docker-local/myapp:1.0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
